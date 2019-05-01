@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/vitalacy/static/css/main.97247b38.chunk.css",
+    "main.js": "/vitalacy/static/js/main.6c2a47f5.chunk.js",
+    "main.js.map": "/vitalacy/static/js/main.6c2a47f5.chunk.js.map",
+    "runtime~main.js": "/vitalacy/static/js/runtime~main.bb7ca41f.js",
+    "runtime~main.js.map": "/vitalacy/static/js/runtime~main.bb7ca41f.js.map",
+    "static/css/2.260c5f7c.chunk.css": "/vitalacy/static/css/2.260c5f7c.chunk.css",
+    "static/js/2.69224ac0.chunk.js": "/vitalacy/static/js/2.69224ac0.chunk.js",
+    "static/js/2.69224ac0.chunk.js.map": "/vitalacy/static/js/2.69224ac0.chunk.js.map",
+    "index.html": "/vitalacy/index.html",
+    "precache-manifest.5e9d2006336a4452381a6bc1ef2dfa45.js": "/vitalacy/precache-manifest.5e9d2006336a4452381a6bc1ef2dfa45.js",
+    "service-worker.js": "/vitalacy/service-worker.js",
+    "static/css/2.260c5f7c.chunk.css.map": "/vitalacy/static/css/2.260c5f7c.chunk.css.map",
+    "static/css/main.97247b38.chunk.css.map": "/vitalacy/static/css/main.97247b38.chunk.css.map",
+    "static/media/semantic.min.css": "/vitalacy/static/media/outline-icons.ef60a4f6.woff"
+  }
+}
