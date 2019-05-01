@@ -26,7 +26,6 @@ export const DashboardBtn = styled.button`
   width: 51px;
   height: 31px;
   border-radius: 4px;
-  font-family: Avenir;
   color: #808080;
   background-color: #fff;
   border-radius: solid 1px #e8e8e8;

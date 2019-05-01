@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
-  font-family: Avenir;
   width: 100%;
   height: 68px;
   background-color: #fff;
