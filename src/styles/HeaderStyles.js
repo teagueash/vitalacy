@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
   width: 100%;
-  height: 68px;
+  height: 63px;
   background-color: #fff;
   border-bottom: 1px solid #e8e8e8;
   display: flex;
@@ -15,7 +15,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const HeaderLogoContainer = styled.div`
-  width: 81px;
+  width: 73px;
   background-color: #527cf0;
   display: flex;
   justify-content: center;

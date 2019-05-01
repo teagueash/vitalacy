@@ -50,9 +50,9 @@ export const DashboardGraph = styled.div`
   margin: 1em;
 
   height: ${props =>
-    (props.position === 'main' && '460px') ||
-    (props.position === 'left' && '260px') ||
-    (props.position === 'right' && '260px') ||
+    (props.position === 'main' && '430px') ||
+    (props.position === 'left' && '245px') ||
+    (props.position === 'right' && '245px') ||
     (!props.position && props.height)}
 
   flex: ${props =>
@@ -67,7 +67,7 @@ export const DashboardGraph = styled.div`
 `;
 
 export const DashboardGraphsLeft = styled.div`
-  flex: 3;
+  flex: 5;
   display: flex;
   flex-flow: row wrap;
 
@@ -81,7 +81,7 @@ export const DashboardGraphsLeft = styled.div`
 `;
 
 export const DashboardGraphsRight = styled.div`
-  flex: 1;
+  flex: 2;
 `;
 
 export const DashboardSplash = styled.div`
@@ -101,7 +101,8 @@ export const DashboardSplash = styled.div`
 `;
 export const DashboardSplashText = styled.p`
   color: #fff;
-  font-size: 4em;
+  font-size: 3.2em;
+  font-weight: bold;
   position: absolute;
   padding: 0 1em;
   top: 50%;

@@ -23,16 +23,16 @@ const Dashboard = () => {
       </DashboardBtnContainer>
       <DashboardGraphContainer>
         <DashboardGraphsLeft>
-          <DashboardGraph position={'main'} height={'786px'}>
+          <DashboardGraph position={'main'}>
             <DashboardSplash>
               <DashboardSplashText>welcome to your vitalacy dashboard!</DashboardSplashText>
             </DashboardSplash>
           </DashboardGraph>
-          <DashboardGraph position={'left'} height={'260px'} />
-          <DashboardGraph position={'right'} height={'260px'} />
+          <DashboardGraph position={'left'} />
+          <DashboardGraph position={'right'} />
         </DashboardGraphsLeft>
         <DashboardGraphsRight>
-          <DashboardGraph height={'750px'} />
+          <DashboardGraph height={'710px'} />
         </DashboardGraphsRight>
       </DashboardGraphContainer>
     </DashboardContainer>

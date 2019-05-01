@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Icon } from 'semantic-ui-react';
 
 export const SidebarContainer = styled.div`
-  width: 81px;
+  width: 73px;
   margin-top: -1px;
   background-color: #2a2f4b;
 `;
