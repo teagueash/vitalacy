@@ -32,7 +32,7 @@ const Dashboard = () => {
           <DashboardGraph position={'right'} height={'260px'} />
         </DashboardGraphsLeft>
         <DashboardGraphsRight>
-          <DashboardGraph height={'775px'} />
+          <DashboardGraph height={'750px'} />
         </DashboardGraphsRight>
       </DashboardGraphContainer>
     </DashboardContainer>

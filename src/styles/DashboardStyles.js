@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 
 export const DashboardContainer = styled.div`
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 93vh;
+  min-height: 800px;
   flex: 1;
   padding: 0 1em;
   background-color: #f5f5f5;
 
+  @media (max-width: 786px) {
+    width: 100%;
+    height: 100%;
+  }
   @media (max-width: 475px) {
     margin-top: 67px;
   }
@@ -43,12 +48,13 @@ export const DashboardGraph = styled.div`
   border-radius: 8px;
   background-color: #fff;
   position: relative;
+  margin: 1em;
+
   height: ${props =>
     (props.position === 'main' && '460px') ||
     (props.position === 'left' && '260px') ||
     (props.position === 'right' && '260px') ||
-    (!props.position && '775px')}
-  margin: 1em;
+    (!props.position && props.height)}
 
   flex: ${props =>
     (props.position === 'left' && `${2} !important `) ||

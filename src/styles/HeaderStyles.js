@@ -8,9 +8,10 @@ export const HeaderContainer = styled.div`
   border-bottom: 1px solid #e8e8e8;
   display: flex;
 
-  @media (max-width: 475px) {
+  @media (max-width: 786px) {
     position: fixed;
     text-align: center;
+    z-index: 5;
   }
 `;
 
@@ -38,7 +39,7 @@ export const HeaderText = styled.p`
   font-weight: lighter;
   line-height: 66px;
 
-  @media (max-width: 475px) {
+  @media (max-width: 786px) {
     margin-left: 0;
   }
 `;

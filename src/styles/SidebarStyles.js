@@ -15,7 +15,7 @@ export const SidebarList = styled.ul`
   flex-direction: column;
   padding-top: 15px;
 
-  @media (max-width: 475px) {
+  @media (max-width: 786px) {
     padding-top: 67px;
   }
 `;
