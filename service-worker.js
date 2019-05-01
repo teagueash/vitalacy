@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/vitalacy/precache-manifest.5e9d2006336a4452381a6bc1ef2dfa45.js"
+  "/vitalacy/precache-manifest.dea23c9e7ce46bdf12cc28c4bc3fa58f.js"
 );
 
 self.addEventListener('message', (event) => {
