@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e4c7cf9c79d0dc777b2ccced3730623",
+    "revision": "172c92d4db54139acf2199defc2a7082",
     "url": "/vitalacy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vitalacy/static/css/2.260c5f7c.chunk.css"
   },
   {
-    "revision": "206512024f5d8ddefbc6",
+    "revision": "67364eb907c8aa655309",
     "url": "/vitalacy/static/css/main.97247b38.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vitalacy/static/js/2.69224ac0.chunk.js"
   },
   {
-    "revision": "206512024f5d8ddefbc6",
-    "url": "/vitalacy/static/js/main.b586e3e8.chunk.js"
+    "revision": "67364eb907c8aa655309",
+    "url": "/vitalacy/static/js/main.c634d21b.chunk.js"
   },
   {
     "revision": "d3d7668c820174c69f71",
