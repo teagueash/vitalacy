@@ -11,15 +11,21 @@ export const DashboardContainer = styled.div`
   @media (max-width: 786px) {
     width: 100%;
     height: 100%;
+    padding-top: 75px;
   }
   @media (max-width: 475px) {
-    margin-top: 67px;
+    padding-top: 75px;
   }
 `;
 
 export const DashboardBtnContainer = styled.div`
   text-align: right;
   margin: 0.8em 1em 0.5em 0;
+
+  @media (max-width: 768px) {
+    margin: 0;
+    text-align: center;
+  }
 `;
 
 export const DashboardBtn = styled.button`
@@ -67,7 +73,7 @@ export const DashboardGraph = styled.div`
 `;
 
 export const DashboardGraphsLeft = styled.div`
-  flex: 5;
+  flex: 6;
   display: flex;
   flex-flow: row wrap;
 
@@ -81,7 +87,7 @@ export const DashboardGraphsLeft = styled.div`
 `;
 
 export const DashboardGraphsRight = styled.div`
-  flex: 2;
+  flex: 3;
 `;
 
 export const DashboardSplash = styled.div`
@@ -102,7 +108,7 @@ export const DashboardSplash = styled.div`
 export const DashboardSplashText = styled.p`
   color: #fff;
   font-size: 3.2em;
-  font-weight: bold;
+  font-weight: bolder;
   position: absolute;
   padding: 0 1em;
   top: 50%;
